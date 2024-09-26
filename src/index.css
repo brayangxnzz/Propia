@@ -1,0 +1,61 @@
+body {
+  margin: 40px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #0b3e71; /* Fondo azul suave */
+
+}
+
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffffff; /* Fondo de los cuadros */
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #0d47a1; /* Azul intenso */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+textarea, input {
+  width: 100%;
+  border: 1px solid #90caf9; /* Azul suave */
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  background-color: #42a5f5; /* Azul medio */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #919191; /* Azul más oscuro al pasar el cursor */
+}
+
+.icon-button {
+  margin-left: 10px;
+  color: #42a5f5;
+}
+
+.copy-message {
+  color: green;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+}
